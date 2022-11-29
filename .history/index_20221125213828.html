@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Progress Bar | Bootstrap</title>
+    <!-- The purpose of progress bars is to show something is loading, in progress, or action taking place with elements on the page. -->
+    <!-- STEP 1: Link to Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"  rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body class="m-4">
+    <!-- STEP 3: Review the HTML for the page -->
+    <main class="d-flex justify-content-center">
+        <h1 class="mb-4">Santa Gift Request Form</h1>
+        
+        <form>
+            <div class="mb-4 col-8 text-center">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullName" />
+            </div>   
+            <label for="giftRequest" class="form-label">Gift Request</label>
+            <textarea class="form-control" id="giftRequest" row="3"></textarea>
+        </form>
+        <!-- STEP 4: Create a div and add .progress and some top and bottom margin -->
+        <div class="progress mt-4 mb-4 sticky-top" style="height: 10px;">
+            <!-- STEP 5: Create another div .progress-bar. Add the appropriate roles and aria attributes (b/c this is not the HTML5 semantic element <progress>)-->
+            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Long Read Progress Bar" style="width:25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">One</div>
+            <!-- STEP 6: Change the value of width property to 50% percentage and see what happens Note: The aria-valuenow should also be changed -->
+            <!-- STEP 7: Add a label to the progress-bar adding text in the div -->
+            <!-- STEP 8: Add a bootstrap background color to the progress-bar (bg-success bg-info bg-warning) -->
+            <!-- STEP 9: Try adding a bootstrap class of .progress-bar-striped and .progress-bar-animated to the .progress-bar -->
+            <!-- STEP 10: Create three more inner divs .progress bar and change the color and width. (copy/paste) -->
+            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Long Read Progress Bar" style="width:15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">Two</div>
+            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Long Read Progress Bar" style="width:35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">Three</div>
+            <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Long Read Progress Bar" style="width:25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Four</div>
+            <!-- STEP 11: Set a height on the div.progress -->
+            <!-- STEP 12: give the the div.progress a position class .sticky-top -->
+        </div> <!-- .progress -->
+        <section id="chapter1">
+            <h2>Chapter 1</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae gravida orci. Vestibulum magna
+                ante, condimentum a metus eu, dapibus viverra neque. Suspendisse vel felis eget velit ultrices blandit.
+                Donec a elit congue, viverra massa in, bibendum erat. Integer viverra arcu eu elementum vestibulum.
+                Donec posuere varius odio consectetur aliquam. Nunc iaculis nisl mi, et ornare turpis tincidunt in.
+                Aliquam erat volutpat. Fusce ac ex a urna dictum suscipit. Aliquam eleifend ultrices aliquam. Nullam
+                cursus sed mauris non eleifend. In quis urna tellus.
+            </p>
+            <p>
+                Donec eu metus dolor. Pellentesque sem lorem, auctor eget molestie quis, luctus in dolor. Ut dapibus
+                bibendum sem non suscipit. Proin scelerisque faucibus tempor. Donec a quam eu nulla auctor efficitur ut
+                quis odio. Integer non est ultricies ipsum suscipit pharetra at sed eros. Aenean sed pellentesque mi.
+                Donec et semper arcu. In odio eros, dictum ac dignissim nec, semper accumsan erat. Ut turpis nulla,
+                lobortis vel enim non, rhoncus ultrices risus.
+            </p>
+            <p>
+                Aliquam magna massa, fringilla nec elementum sed, eleifend non magna. Nulla molestie aliquam urna,
+                volutpat faucibus est porttitor sit amet. Nunc pharetra convallis eleifend. Nullam ex tortor, luctus sed
+                dignissim non, dictum sit amet ipsum. Fusce euismod interdum justo, a ultrices nibh laoreet non. Fusce
+                eleifend dictum neque, eu semper arcu hendrerit in. Suspendisse finibus vehicula lobortis. Fusce
+                porttitor sem tellus, vel venenatis dui interdum at. Aliquam erat volutpat. Duis lacinia, erat quis
+                dictum tincidunt, ante quam sollicitudin nibh, facilisis feugiat odio orci sed dolor. Pellentesque
+                habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            </p>
+            <p>
+                Maecenas euismod quis purus et congue. Nullam nisi velit, semper vitae congue nec, lacinia sed leo. In
+                sagittis tincidunt ullamcorper. Proin rutrum sagittis mauris. Aliquam ut eleifend justo. Nullam lacinia
+                vitae enim dapibus maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos. Proin velit turpis, dictum a auctor sed, dapibus eget sapien.
+            </p>
+        </section>
+        <section id="chapter2">
+            <h2>Chapter 2</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae gravida orci. Vestibulum magna
+                ante, condimentum a metus eu, dapibus viverra neque. Suspendisse vel felis eget velit ultrices blandit.
+                Donec a elit congue, viverra massa in, bibendum erat. Integer viverra arcu eu elementum vestibulum.
+                Donec posuere varius odio consectetur aliquam. Nunc iaculis nisl mi, et ornare turpis tincidunt in.
+                Aliquam erat volutpat. Fusce ac ex a urna dictum suscipit. Aliquam eleifend ultrices aliquam. Nullam
+                cursus sed mauris non eleifend. In quis urna tellus.
+            </p>
+            <p>
+                Maecenas euismod quis purus et congue. Nullam nisi velit, semper vitae congue nec, lacinia sed leo. In
+                sagittis tincidunt ullamcorper. Proin rutrum sagittis mauris. Aliquam ut eleifend justo. Nullam lacinia
+                vitae enim dapibus maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos. Proin velit turpis, dictum a auctor sed, dapibus eget sapien.
+            </p>
+        </section>
+        <section id="chapter3">
+            <h2>Chapter 3</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae gravida orci. Vestibulum magna
+                ante, condimentum a metus eu, dapibus viverra neque. Suspendisse vel felis eget velit ultrices blandit.
+                Donec a elit congue, viverra massa in, bibendum erat. Integer viverra arcu eu elementum vestibulum.
+                Donec posuere varius odio consectetur aliquam. Nunc iaculis nisl mi, et ornare turpis tincidunt in.
+                Aliquam erat volutpat. Fusce ac ex a urna dictum suscipit. Aliquam eleifend ultrices aliquam. Nullam
+                cursus sed mauris non eleifend. In quis urna tellus.
+            </p>
+            <p>
+                Donec eu metus dolor. Pellentesque sem lorem, auctor eget molestie quis, luctus in dolor. Ut dapibus
+                bibendum sem non suscipit. Proin scelerisque faucibus tempor. Donec a quam eu nulla auctor efficitur ut
+                quis odio. Integer non est ultricies ipsum suscipit pharetra at sed eros. Aenean sed pellentesque mi.
+                Donec et semper arcu. In odio eros, dictum ac dignissim nec, semper accumsan erat. Ut turpis nulla,
+                lobortis vel enim non, rhoncus ultrices risus.
+            </p>  
+            <p>
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ut nibh eu justo luctus lacinia. Vivamus laoreet egestas orci sit amet consequat. Phasellus fringilla odio dui, eu ullamcorper lorem mollis eu. Fusce vitae consequat ipsum. Donec tincidunt diam in tortor malesuada, at laoreet erat lacinia. Suspendisse potenti. Maecenas pellentesque blandit elit, vitae consectetur lectus placerat in. Nunc at lacinia massa, eu scelerisque arcu. Cras orci leo, consectetur id vestibulum non, accumsan at lorem.
+            </p> 
+            <p>
+                Pellentesque non ipsum lectus. Integer a tellus rutrum, bibendum elit eu, auctor lorem. Integer lacus ligula, molestie dapibus quam eu, dictum luctus dolor. Curabitur mauris massa, ultricies non molestie vel, rhoncus quis felis. Phasellus a varius massa. Nulla sit amet orci viverra, tempus mauris accumsan, blandit eros. Etiam vel ante justo. Duis non elit rutrum, maximus justo quis, venenatis neque. Cras ac condimentum nulla. Etiam vel dolor convallis, gravida est a, sodales lacus. Pellentesque sollicitudin elit vel malesuada molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas dignissim, ligula in sodales mattis, mi nisl suscipit tortor, eu commodo velit dui fringilla magna. In suscipit aliquet mauris, maximus pharetra ligula porta sed.
+            </p>
+            <p>
+                Donec eu metus dolor. Pellentesque sem lorem, auctor eget molestie quis, luctus in dolor. Ut dapibus
+                bibendum sem non suscipit. Proin scelerisque faucibus tempor. Donec a quam eu nulla auctor efficitur ut
+                quis odio. Integer non est ultricies ipsum suscipit pharetra at sed eros. Aenean sed pellentesque mi.
+                Donec et semper arcu. In odio eros, dictum ac dignissim nec, semper accumsan erat. Ut turpis nulla,
+                lobortis vel enim non, rhoncus ultrices risus.
+            </p>
+            <p>
+                Aliquam magna massa, fringilla nec elementum sed, eleifend non magna. Nulla molestie aliquam urna,
+                volutpat faucibus est porttitor sit amet. Nunc pharetra convallis eleifend. Nullam ex tortor, luctus sed
+                dignissim non, dictum sit amet ipsum. Fusce euismod interdum justo, a ultrices nibh laoreet non. Fusce
+                eleifend dictum neque, eu semper arcu hendrerit in. Suspendisse finibus vehicula lobortis. Fusce
+                porttitor sem tellus, vel venenatis dui interdum at. Aliquam erat volutpat. Duis lacinia, erat quis
+                dictum tincidunt, ante quam sollicitudin nibh, facilisis feugiat odio orci sed dolor. Pellentesque
+                habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            </p>
+        </section>
+        <section id="chapter4">
+            <h2>Chapter 4</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae gravida orci. Vestibulum magna
+                ante, condimentum a metus eu, dapibus viverra neque. Suspendisse vel felis eget velit ultrices blandit.
+                Donec a elit congue, viverra massa in, bibendum erat. Integer viverra arcu eu elementum vestibulum.
+                Donec posuere varius odio consectetur aliquam. Nunc iaculis nisl mi, et ornare turpis tincidunt in.
+                Aliquam erat volutpat. Fusce ac ex a urna dictum suscipit. Aliquam eleifend ultrices aliquam. Nullam
+                cursus sed mauris non eleifend. In quis urna tellus.
+            </p>
+            <p>
+                Donec eu metus dolor. Pellentesque sem lorem, auctor eget molestie quis, luctus in dolor. Ut dapibus
+                bibendum sem non suscipit. Proin scelerisque faucibus tempor. Donec a quam eu nulla auctor efficitur ut
+                quis odio. Integer non est ultricies ipsum suscipit pharetra at sed eros. Aenean sed pellentesque mi.
+                Donec et semper arcu. In odio eros, dictum ac dignissim nec, semper accumsan erat. Ut turpis nulla,
+                lobortis vel enim non, rhoncus ultrices risus.
+            </p>
+            <p>
+                Aliquam magna massa, fringilla nec elementum sed, eleifend non magna. Nulla molestie aliquam urna,
+                volutpat faucibus est porttitor sit amet. Nunc pharetra convallis eleifend. Nullam ex tortor, luctus sed
+                dignissim non, dictum sit amet ipsum. Fusce euismod interdum justo, a ultrices nibh laoreet non. Fusce
+                eleifend dictum neque, eu semper arcu hendrerit in. Suspendisse finibus vehicula lobortis. Fusce
+                porttitor sem tellus, vel venenatis dui interdum at. Aliquam erat volutpat. Duis lacinia, erat quis
+                dictum tincidunt, ante quam sollicitudin nibh, facilisis feugiat odio orci sed dolor. Pellentesque
+                habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            </p>
+            <p>
+                Maecenas euismod quis purus et congue. Nullam nisi velit, semper vitae congue nec, lacinia sed leo. In
+                sagittis tincidunt ullamcorper. Proin rutrum sagittis mauris. Aliquam ut eleifend justo. Nullam lacinia
+                vitae enim dapibus maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos. Proin velit turpis, dictum a auctor sed, dapibus eget sapien.
+            </p>
+        </section>
+        <footer id="end">
+            <h3>Thanks For Watching!</h3>
+        </footer>
+    </main>
+    <!-- STEP 2: Link to Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

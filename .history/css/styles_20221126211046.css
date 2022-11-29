@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+h1, h2, h3 {
+    font-family: 'Rochester', cursive, sans-serif;
+}
+
+.progress, .progress-bar, #nice, #naughty {
+    visibility: hidden;
+}
+
+.progress-bar:nth-of-type(1) {
+    visibility: hidden;
+    transition: visibility ease-in 0.8s;
+}
+
+.progress-bar:nth-of-type(2) {
+    visibility: hidden;
+    transition: visibility ease-in 1.5s;
+}
+
+.progress-bar:nth-of-type(3) {
+    visibility: hidden;
+    transition: visibility ease-in 2.4s;
+}
+
+.progress-bar:nth-of-type(4) {
+    visibility: hidden;
+    transition: visibility ease-in 3s;
+}
+
