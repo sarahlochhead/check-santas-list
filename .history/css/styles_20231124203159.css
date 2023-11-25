@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Rochester&display=swap');
 
 /* general styles */
-html {
-    margin: 0;
-}
-
 body {
 font-family: 'DM Sans', sans-serif;
 }
@@ -21,13 +17,9 @@ background: radial-gradient(circle, rgba(168,224,248,1) 4%, rgba(88,176,214,1) 9
 }
 
 /* header */
-header {
-    background-image: url(../images/wave-haikei.png);
-}
 
 h1 {
     font-size: 6rem;
-    height: 30vh;
 }
 
 

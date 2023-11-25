@@ -23,6 +23,9 @@ background: radial-gradient(circle, rgba(168,224,248,1) 4%, rgba(88,176,214,1) 9
 /* header */
 header {
     background-image: url(../images/wave-haikei.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    
 }
 
 h1 {
