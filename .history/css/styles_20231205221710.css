@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Rochester&display=swap');
 
 /* general styles */
+html {
+    margin: 0;
+}
 
 body {
 font-family: 'DM Sans', sans-serif;
@@ -15,7 +18,9 @@ h1, h2, h3 {
 
 
 /* header */
-
+header {
+    marg
+}
 h1 {
     font-size: 4.5rem;
 }
