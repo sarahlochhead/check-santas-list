@@ -25,16 +25,9 @@ h1 {
 
 
 /* modal */
-.modal-header {
-    border-bottom: none;
-}
-
+.modal
 .modal h1 {
     font-size: 2.5rem;
-}
-
-.modal-footer {
-    border-top: none;
 }
 
 

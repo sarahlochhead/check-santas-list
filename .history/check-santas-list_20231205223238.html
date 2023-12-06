@@ -30,49 +30,27 @@
                         <textarea class="form-control" id="giftRequest"></textarea>
                     </div>
                     <button type="submit" class="btn btn-danger">Submit</button>
-                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"> Modal</button>
                 </form>
 
                 <img class="col" src="./images/christmas-elf-with-wish-list.png"
                     alt="A cartoon Christmas elf smiles while reading a long scroll-like list.">
             </section>
-
-            <!-- experimenting with modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title" id="exampleModalLabel">Validating Request</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p> place holder text here</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          
-            <!-- end of experiment with modal -->
-
-            <div class="progress mt-4 mb-4" style="height: 50px;" hidden>
-                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
-                    aria-label="Santa Gift Request Progress Bar" style="width:25%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100" hidden>Routed to North Pole</div>
-                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"
-                    aria-label="Long Read Progress Bar" style="width:15%;" aria-valuenow="15" aria-valuemin="0"
-                    aria-valuemax="100" hidden>Elf Verification</div>
-                <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar"
-                    aria-label="Long Read Progress Bar" style="width:35%;" aria-valuenow="35" aria-valuemin="0"
-                    aria-valuemax="100" hidden>Santa Validation</div>
-                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar"
-                    aria-label="Long Read Progress Bar" style="width:25%;" aria-valuenow="25" aria-valuemin="0"
-                    aria-valuemax="100" hidden>Displaying Results</div>
-            </div> <!-- .progress -->
-
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="progress mt-4 mb-4" style="height: 50px;" hidden>
+                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-label="Santa Gift Request Progress Bar" style="width:25%;" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100" hidden>Routed to North Pole</div>
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-label="Long Read Progress Bar" style="width:15%;" aria-valuenow="15" aria-valuemin="0"
+                        aria-valuemax="100" hidden>Elf Verification</div>
+                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-label="Long Read Progress Bar" style="width:35%;" aria-valuenow="35" aria-valuemin="0"
+                        aria-valuemax="100" hidden>Santa Validation</div>
+                    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar"
+                        aria-label="Long Read Progress Bar" style="width:25%;" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100" hidden>Displaying Results</div>
+                </div> <!-- .progress -->
+            </div> <!-- .modal-dialogue-->
             <!-- Nice -->
             <section id="nice" class="text-center" hidden>
                 <h2>Congratulations! You're on the Nice List</h2>
