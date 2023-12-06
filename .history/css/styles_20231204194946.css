@@ -26,6 +26,11 @@ h1 {
 
 
 /* first section */
+div.container > section img {
+    max-width: 50%;
+    
+}
+
 
 
 

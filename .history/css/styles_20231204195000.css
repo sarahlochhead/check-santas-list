@@ -26,6 +26,12 @@ h1 {
 
 
 /* first section */
+div.container > section img {
+    width: 300px;
+    
+
+}
+
 
 
 

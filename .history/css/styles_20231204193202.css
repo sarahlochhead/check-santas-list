@@ -15,17 +15,24 @@ h1, h2, h3 {
 }
 
 /* background */
-
+body {
+background: rgb(168,224,248);
+background: radial-gradient(circle, rgba(168,224,248,1) 4%, rgba(88,176,214,1) 98%);
+}
 
 /* header */
+header {
+    background-image: url();
+}
 
 h1 {
-    font-size: 4.5rem;
+    font-size: 6rem;
     height: 30vh;
 }
 
 
-/* first section */
+
+
 
 
 
