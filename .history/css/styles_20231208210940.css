@@ -34,15 +34,11 @@ h1 {
 }
 
 .modal-header img {
-   width: 150px;
+    width: 20
 }
 
 .modal-body > div > section {
     width: 80%;
-}
-
-.modal-body > div > section > img {
-    width: 20%;
 }
 
 .modal-footer {
