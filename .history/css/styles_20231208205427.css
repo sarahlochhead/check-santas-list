@@ -33,9 +33,7 @@ h1 {
     font-size: 2.5rem;
 }
 
-.modal-header img {
-    width: 30px;
-}
+.modal
 
 .modal-footer {
     border-top: none;
