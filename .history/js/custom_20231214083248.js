@@ -31,7 +31,6 @@ addEventListener("click", (e) => {
    setTimeout(() => {elfVerificationBar.style.width = "100%"}, 3000);
 
    setTimeout(() => {santaValidation.removeAttribute("hidden")}, 4000);
-   santaValidationBar.animate({ width: "100%" }, 4000);
    setTimeout(() => {santaValidation.style.width = "100%"}, 4000);
    
         

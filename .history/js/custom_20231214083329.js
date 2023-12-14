@@ -26,12 +26,12 @@ addEventListener("click", (e) => {
     routedToNorthPoleBar.animate({ width: "100%" }, 2000);
     setTimeout(() => {routedToNorthPoleBar.style.width = "100%"}, 2000);
 
-   setTimeout(() => {elfVerification.removeAttribute("hidden")}, 3000);
+   setTimeout(() => {elfVerification.removeAttribute("hidden")}, 2000);
    elfVerificationBar.animate({ width: "100%" }, 3000);
    setTimeout(() => {elfVerificationBar.style.width = "100%"}, 3000);
 
    setTimeout(() => {santaValidation.removeAttribute("hidden")}, 4000);
-   santaValidationBar.animate({ width: "100%" }, 4000);
+   santaValidationBar.animate({ width: "100%" }, 3000);
    setTimeout(() => {santaValidation.style.width = "100%"}, 4000);
    
         

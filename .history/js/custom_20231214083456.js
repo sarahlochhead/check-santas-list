@@ -27,7 +27,7 @@ addEventListener("click", (e) => {
     setTimeout(() => {routedToNorthPoleBar.style.width = "100%"}, 2000);
 
    setTimeout(() => {elfVerification.removeAttribute("hidden")}, 3000);
-   elfVerificationBar.animate({ width: "100%" }, 3000);
+   elfVerificationBar.animate({ width: "100%" }, 3100);
    setTimeout(() => {elfVerificationBar.style.width = "100%"}, 3000);
 
    setTimeout(() => {santaValidation.removeAttribute("hidden")}, 4000);

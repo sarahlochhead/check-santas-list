@@ -4,10 +4,10 @@ const form = document.querySelector("form");
 const routedToNorthPoleBar = document.querySelector(".routed-to-north-pole-bar");
 
 const elfVerification = document.querySelector(".elf-verification");
-const elfVerificationBar = document.querySelector("elf-verification-bar");
+const elfVerificationBar = document.querySelector("")
 
-const santaValidation = document.querySelector(".santa-validation");
-const santaValidationBar = document.querySelector(".santa-verification-bar");
+
+
 
 const nice = document.querySelector("#nice");
 const naughty = document.querySelector("#naughty");
@@ -26,13 +26,8 @@ addEventListener("click", (e) => {
     routedToNorthPoleBar.animate({ width: "100%" }, 2000);
     setTimeout(() => {routedToNorthPoleBar.style.width = "100%"}, 2000);
 
-   setTimeout(() => {elfVerification.removeAttribute("hidden")}, 3000);
-   elfVerificationBar.animate({ width: "100%" }, 3000);
-   setTimeout(() => {elfVerificationBar.style.width = "100%"}, 3000);
-
-   setTimeout(() => {santaValidation.removeAttribute("hidden")}, 4000);
-   santaValidationBar.animate({ width: "100%" }, 4000);
-   setTimeout(() => {santaValidation.style.width = "100%"}, 4000);
+   setTimeout(() => {progressBarOne.removeAttribute("hidden")}, 1500);
+    // setTimeout(() => {progressBarTwo.removeAttribute("hidden")}, 4500);;
    
         
     // choose a response at random from the results array and display it.
