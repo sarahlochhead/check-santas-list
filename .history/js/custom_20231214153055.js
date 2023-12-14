@@ -37,7 +37,8 @@ addEventListener("click", (e) => {
 
 });
 
-// when you click view results, it will choose either #nice or #naughty at random and toggle hidden to visible
+
+// then it will choose either #nice or #naughty at random and toggle hidden to visible
 
 // choose a response at random from the results array and display it.
     // const result = Math.floor(Math.random()* possibleResults.length);
