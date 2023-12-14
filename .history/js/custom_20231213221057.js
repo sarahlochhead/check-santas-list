@@ -23,7 +23,7 @@ addEventListener("click", (e) => {
     // incrementally remove the hidden attribute on each part of the progress bar.
     
     routedToNorthPoleBar.animate({ width: "100%" }, 2000);
-    setTimeout(() => {routedToNorthPoleBar.style.width = "100%"}, 2000);
+    setTimeout(() => {routedToNorthPoleBar.s}
 
     // setTimeout(() => {progressBarOne.removeAttribute("hidden")}, 1500);
     // setTimeout(() => {progressBarTwo.removeAttribute("hidden")}, 4500);setTimeout(() => {progressBarThree.removeAttribute("hidden")}, 7500);

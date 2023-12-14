@@ -3,6 +3,8 @@ const form = document.querySelector("form");
 
 const routedToNorthPoleBar = document.querySelector(".routed-to-north-pole");
 
+const button = document.getElementsByTagName("button");
+
 const progressBarOne = document.querySelector(".progress-bar:nth-of-type(1)");
 const progressBarTwo = document.querySelector(".progress-bar:nth-of-type(2)");
 const progressBarThree = document.querySelector(".progress-bar:nth-of-type(3)");
@@ -22,8 +24,8 @@ const possibleResults = [nice, naughty];
 addEventListener("click", (e) => {
     // incrementally remove the hidden attribute on each part of the progress bar.
     
-    routedToNorthPoleBar.animate({ width: "100%" }, 2000);
-    setTimeout(() => {routedToNorthPoleBar.style.width = "100%"}, 2000);
+    routedToNorthPoleBar.animate({ width: "100%" }, 3000);
+    routedToNorthPoleBar({ width: "100%" }, 3000)
 
     // setTimeout(() => {progressBarOne.removeAttribute("hidden")}, 1500);
     // setTimeout(() => {progressBarTwo.removeAttribute("hidden")}, 4500);setTimeout(() => {progressBarThree.removeAttribute("hidden")}, 7500);
