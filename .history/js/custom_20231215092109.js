@@ -35,13 +35,17 @@ addEventListener("click", (e) => {
    
     setTimeout(() => {viewResults.removeAttribute("hidden")}, 9000);
 
+    addEventListener("click", (e) => {
+        const result = Math.floor(Math.random()* possibleResults.length);
+    console.log(result);
+    // setTimeout(() => {possibleResults[result].removeAttribute("hidden");}, 9999);
+    }
+
 });
 
- // when you click view results, it will choose either #nice or #naughty at random and toggle hidden to visible
-    // choose a response at random from the results array and display it.
-viewResults.addEventListener("click", (e) => {
-    const result = Math.floor(Math.random()* possibleResults.length);
-    //console.log(result);
-    setTimeout(() => {possibleResults[result].removeAttribute("hidden");}, 9999);
-});
+// when you click view results, it will choose either #nice or #naughty at random and toggle hidden to visible
 
+// choose a response at random from the results array and display it.
+    // const result = Math.floor(Math.random()* possibleResults.length);
+    // console.log(result);
+    // setTimeout(() => {possibleResults[result].removeAttribute("hidden");}, 9999);

@@ -42,6 +42,8 @@ addEventListener("click", (e) => {
 viewResults.addEventListener("click", (e) => {
     const result = Math.floor(Math.random()* possibleResults.length);
     //console.log(result);
-    setTimeout(() => {possibleResults[result].removeAttribute("hidden");}, 9999);
-});
+        setTimeout(() => {possibleResults[result].removeAttribute("hidden");}, 9999);
+    }
 
+
+ 
