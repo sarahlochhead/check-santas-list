@@ -53,21 +53,17 @@ h1 {
 .offscreen 
 {
     position: absolute;
-    left: -99999px;
+    top: 0;
 
 }
 
 .onscreen 
 {
     position: absolute;
-    top: 20vh;
+    top: 30vh;
     left: 0;
 }
 
-#nice, #naughty {
-    background: white;
-    height: 100vh;  
-    padding: 0 5%;  
-}
+
 
 

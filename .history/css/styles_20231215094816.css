@@ -52,22 +52,17 @@ h1 {
 /* results */
 .offscreen 
 {
-    position: absolute;
-    left: -99999px;
-
-}
-
-.onscreen 
-{
-    position: absolute;
-    top: 20vh;
-    left: 0;
+    position: relative;
+    overflow: hidden;
 }
 
 #nice, #naughty {
-    background: white;
-    height: 100vh;  
-    padding: 0 5%;  
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: -50px;
+    top: 50px;
 }
+
 
 

@@ -84,9 +84,20 @@
               </div>
           
             <!-- end of modal -->
-
+            
+            <!-- bs offcanvas  --> 
+            <div class="offcanvas offcanvas-bottom" tabindex="-" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body small">
+                  TESTING
+                </div>
+              </div>
+            <!-- end of bs offcanvas -->
             <!-- Nice -->
-            <section id="nice" class="text-center offscreen">
+            <section id="nice" class="text-center" hidden>
                 <h2>Congratulations! You're on the Nice List</h2>
                 <p>
                     Your really outdid yourself this year!
@@ -104,7 +115,7 @@
             </section>
 
             <!-- Naughty -->
-            <section id="naughty" class="text-center offscreen">
+            <section id="naughty" class="text-center" hidden>
                 <h2>Sorry. You're on the Naughty List</h2>
                 <p>
                     Well, unfortunately we are unable to process your request at this time. Please ... do better and try

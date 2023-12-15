@@ -42,6 +42,6 @@ addEventListener("click", (e) => {
 viewResults.addEventListener("click", (e) => {
     const result = Math.floor(Math.random()* possibleResults.length);
     //console.log(result);
-    setTimeout(() => {possibleResults[result].classList.toggle("onscreen")}, 1000);
+    setTimeout(() => {possibleResults[result].classList.toggle("onscreen");}, 1000);
 });
 
