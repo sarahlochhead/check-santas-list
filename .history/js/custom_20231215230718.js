@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
     yourRequest.addEventListener("blur", (e) => {
         console.log(yourRequest.value);
         for (let i = 0; i < displayRequest.length; i++) {
-            displayRequest.innerText = yourRequest.value;
+            displayRequest.innerText = yourRquest.value}`;
             console.log(displayRequest.innerText);
           };
     });

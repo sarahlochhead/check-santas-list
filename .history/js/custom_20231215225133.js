@@ -31,18 +31,14 @@ document.addEventListener("DOMContentLoaded", () => {
     // when the form is done grab the input values
     yourName.addEventListener("blur", (e) => {
         console.log(yourName.value);
-        for (let i = 0; i < displayName.length; i++) {
-            displayName.innerText = yourName.value;
-            console.log(displayName.innerText);
-          };
+        for (let i = 0; i < cars.length; i++) {
+            text += cars[i] + "<br>";
+          }
+
     });
 
     yourRequest.addEventListener("blur", (e) => {
         console.log(yourRequest.value);
-        for (let i = 0; i < displayRequest.length; i++) {
-            displayRequest.innerText = yourRequest.value;
-            console.log(displayRequest.innerText);
-          };
     });
 
     // Then trigger the event function
