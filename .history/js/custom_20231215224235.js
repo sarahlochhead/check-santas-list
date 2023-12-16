@@ -4,8 +4,6 @@ const main = document.querySelector(".main");
 
 const yourName = document.querySelector("input");
 
-const yourRequest = document.querySelector("textarea");
-
 const submit = document.getElementById("submit");
 
 const routedToNorthPoleBar = document.querySelector(".routed-to-north-pole-bar");
@@ -28,12 +26,9 @@ const nextRequest = document.querySelector(".next-request")
 document.addEventListener("DOMContentLoaded", () => {
     // when the form is done grab the input values
     yourName.addEventListener("blur", (e) => {
-        console.log(yourName.value);
+        console.log(yourName);
     });
 
-    yourRequest.addEventListener("blur", (e) => {
-        console.log(yourRequest.value);
-    });
 
     // Then trigger the event function
 

@@ -3,6 +3,7 @@
 const main = document.querySelector(".main");
 
 const yourName = document.querySelector("input");
+const yourNameData =document.
 
 const yourRequest = document.querySelector("textarea");
 
@@ -29,11 +30,15 @@ document.addEventListener("DOMContentLoaded", () => {
     // when the form is done grab the input values
     yourName.addEventListener("blur", (e) => {
         console.log(yourName.value);
+
     });
 
     yourRequest.addEventListener("blur", (e) => {
         console.log(yourRequest.value);
     });
+
+
+
 
     // Then trigger the event function
 

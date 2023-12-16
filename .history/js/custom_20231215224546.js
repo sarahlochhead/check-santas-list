@@ -29,11 +29,15 @@ document.addEventListener("DOMContentLoaded", () => {
     // when the form is done grab the input values
     yourName.addEventListener("blur", (e) => {
         console.log(yourName.value);
+        
     });
 
     yourRequest.addEventListener("blur", (e) => {
         console.log(yourRequest.value);
     });
+
+
+
 
     // Then trigger the event function
 

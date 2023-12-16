@@ -4,7 +4,7 @@ const main = document.querySelector(".main");
 
 const yourName = document.querySelector("input");
 
-const yourRequest = document.querySelector("textarea");
+cont yourRequest = document.querySelector("")
 
 const submit = document.getElementById("submit");
 
@@ -31,9 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(yourName.value);
     });
 
-    yourRequest.addEventListener("blur", (e) => {
-        console.log(yourRequest.value);
-    });
+
+
 
     // Then trigger the event function
 

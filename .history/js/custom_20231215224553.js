@@ -35,6 +35,9 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(yourRequest.value);
     });
 
+
+
+
     // Then trigger the event function
 
     // The function incrementally removes the hidden attribute to each .progress-bar, animates it to 100% and holds the style at 100%. And then shows the results button.

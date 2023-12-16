@@ -31,9 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(yourName.value);
     });
 
-    yourRequest.addEventListener("blur", (e) => {
-        console.log(yourRequest.value);
-    });
+
+
 
     // Then trigger the event function
 
