@@ -36,9 +36,8 @@ h1 {
 .modal-header img {
    width: 150px;
 }
-
 .modal-body {
-    padding-bottom: 0;
+    
 }
 
 .modal-body > div > section {
@@ -51,7 +50,6 @@ h1 {
 
 .modal-footer {
     border-top: none;
-    padding-top: 0;
 }
 
 /* results */
@@ -65,11 +63,12 @@ h1 {
 .onscreen 
 {
     position: absolute;
-    top: 30vh;
+    top: 20vh;
     left: 0;
 }
 
 #nice, #naughty {
+    background: white;
     height: 100vh;  
     padding: 0 5%;  
 }

@@ -65,11 +65,12 @@ h1 {
 .onscreen 
 {
     position: absolute;
-    top: 30vh;
+    top: 20vh;
     left: 0;
 }
 
 #nice, #naughty {
+    
     height: 100vh;  
     padding: 0 5%;  
 }

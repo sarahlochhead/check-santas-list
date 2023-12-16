@@ -16,9 +16,6 @@ const nice = document.querySelector("#nice");
 const naughty = document.querySelector("#naughty");
 const possibleResults = [nice, naughty];
 
-const newRequest = document.querySelector(".new-request")
-const nextRequest = document.querySelector(".next-request")
-
 // when the form is done (not really a submit button) trigger the event function
 
 // The function incrementally removes the hidden attribute to each .progress-bar, animates it to 100% and holds the style at 100%. And then shows the results button.
@@ -39,7 +36,7 @@ addEventListener("click", (e) => {
    
     setTimeout(() => {viewResults.removeAttribute("hidden")}, 9000);
 
-    setTimeout(() => {main.setAttribute("hidden", "")}, 9000);
+    main.setAttribute("hidden");
 
 });
 
@@ -48,14 +45,6 @@ addEventListener("click", (e) => {
 viewResults.addEventListener("click", (e) => {
     const result = Math.floor(Math.random()* possibleResults.length);
     //console.log(result);
-    setTimeout(() => {possibleResults[result].classList.toggle("onscreen")}, 0);
+    setTimeout(() => {possibleResults[result].classList.toggle("onscreen")}, 1000);
 });
 
-// reload the page on click
-newRequest.addEventListener("click", (e) => {
-    document.location.reload();
-});
-
-nextRequest.addEventListener("click", (e) => {
-    document.location.reload();
-});

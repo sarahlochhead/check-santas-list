@@ -39,7 +39,7 @@ addEventListener("click", (e) => {
    
     setTimeout(() => {viewResults.removeAttribute("hidden")}, 9000);
 
-    setTimeout(() => {main.setAttribute("hidden", "")}, 9000);
+    setTimeout(() => {main.setAttribute("hidden", "")}, 10000);
 
 });
 
@@ -48,7 +48,7 @@ addEventListener("click", (e) => {
 viewResults.addEventListener("click", (e) => {
     const result = Math.floor(Math.random()* possibleResults.length);
     //console.log(result);
-    setTimeout(() => {possibleResults[result].classList.toggle("onscreen")}, 0);
+    setTimeout(() => {possibleResults[result].classList.toggle("onscreen")}, 1000);
 });
 
 // reload the page on click
@@ -56,6 +56,6 @@ newRequest.addEventListener("click", (e) => {
     document.location.reload();
 });
 
-nextRequest.addEventListener("click", (e) => {
+newRequest.addEventListener("click", (e) => {
     document.location.reload();
 });

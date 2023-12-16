@@ -17,7 +17,6 @@ const naughty = document.querySelector("#naughty");
 const possibleResults = [nice, naughty];
 
 const newRequest = document.querySelector(".new-request")
-const nextRequest = document.querySelector(".next-request")
 
 // when the form is done (not really a submit button) trigger the event function
 
@@ -56,6 +55,3 @@ newRequest.addEventListener("click", (e) => {
     document.location.reload();
 });
 
-nextRequest.addEventListener("click", (e) => {
-    document.location.reload();
-});
