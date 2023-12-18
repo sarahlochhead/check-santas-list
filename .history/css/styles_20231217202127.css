@@ -21,12 +21,17 @@ h1 {
     font-size: 4.5rem;
 }
 
+h2 {
+    font-size: 4rem;
+}
+
+
 /* first section */
 .main img {
    transform:scaleX(-1);
 }
 
-.btn {
+button {
     font-weight: bold;
 }
 

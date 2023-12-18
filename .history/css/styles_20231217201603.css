@@ -5,7 +5,6 @@
 
 body {
 font-family: 'DM Sans', sans-serif;
-font-size: 18px;
 }
 
 h1, h2, h3 {
@@ -21,14 +20,12 @@ h1 {
     font-size: 4.5rem;
 }
 
+
 /* first section */
 .main img {
-   transform:scaleX(-1);
+   transform:scal
 }
 
-.btn {
-    font-weight: bold;
-}
 
 /* modal */
 .modal-header {
@@ -77,10 +74,7 @@ h1 {
 
 #nice, #naughty {
     height: 100vh;  
-    padding: 0 20%;  
+    padding: 0 5%;  
 }
 
-#nice h2, #naughty h2{
-    font-size: 4rem;
-}
 

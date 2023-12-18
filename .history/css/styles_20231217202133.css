@@ -26,7 +26,7 @@ h1 {
    transform:scaleX(-1);
 }
 
-.btn {
+button {
     font-weight: bold;
 }
 
