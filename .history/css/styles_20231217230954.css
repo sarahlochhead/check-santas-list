@@ -97,10 +97,17 @@ main > div {
 
 #nice, #naughty {
     height: 100vh;  
-    padding: 0 5%;  
+    padding: 0 5% 15%;  
 }
 
 #nice h2, #naughty h2{
     font-size: 4rem;
-}   
+}
+
+/* footer */
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+};    
 

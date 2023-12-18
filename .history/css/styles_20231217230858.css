@@ -102,5 +102,12 @@ main > div {
 
 #nice h2, #naughty h2{
     font-size: 4rem;
-}   
+}
+
+/* footer */
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+};    
 
