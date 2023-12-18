@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
         for (let i = 0; i < displayName.length; i++) {
             displayName[i].textContent = yourName.value;
           };
+          return
     });
 
     yourRequest.addEventListener("blur", (e) => {
@@ -41,6 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
         for (let i = 0; i < displayRequest.length; i++) {
             displayRequest[i].textContent = yourRequest.value;
           };
+          return
     });
 
     // Then trigger the event function

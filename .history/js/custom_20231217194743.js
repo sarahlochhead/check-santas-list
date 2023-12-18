@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
         for (let i = 0; i < displayRequest.length; i++) {
             displayRequest[i].textContent = yourRequest.value;
           };
+          return
     });
 
     // Then trigger the event function
