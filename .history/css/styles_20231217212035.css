@@ -12,14 +12,6 @@ h1, h2, h3 {
     font-family: 'Rochester', cursive, sans-serif;
 }
 
-a {
-    color: black;
-}
-
-a:hover {
-    color: red;
-}
-
 /* header */
 
 h1 {
@@ -103,11 +95,4 @@ main > div {
 #nice h2, #naughty h2{
     font-size: 4rem;
 }
-
-/* footer */
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-};    
 

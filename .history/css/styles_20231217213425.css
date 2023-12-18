@@ -13,11 +13,8 @@ h1, h2, h3 {
 }
 
 a {
-    color: black;
-}
-
-a:hover {
-    color: red;
+    text-decoration: none;
+    color: navy
 }
 
 /* header */

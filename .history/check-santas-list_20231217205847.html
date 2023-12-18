@@ -22,37 +22,34 @@
     <header class="m-4 pb-4">
       <h1 class="text-center">Santa Gift Request Form</h1>
     </header>
-    <main>
-      <div>
-        <section class="row main m-4 p-4">
-          <form class="col">
-            <div class="mb-4">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" value="" />
-            </div>
-            <div class="mb-4">
-              <label for="giftRequest" class="form-label">Gift Request</label>
-              <textarea class="form-control" id="giftRequest"></textarea>
-            </div>
-            <button
-              type="button"
-              class="btn btn-danger"
-              id="submit"
-              data-bs-toggle="modal"
-              data-bs-target="#modal"
-            >
-              Submit
-            </button>
-          </form>
+    <main class="container">
+      <section class="row main mt-4 pt-4">
+        <form class="col">
+          <div class="mb-4">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" value="" />
+          </div>
+          <div class="mb-4">
+            <label for="giftRequest" class="form-label">Gift Request</label>
+            <textarea class="form-control" id="giftRequest"></textarea>
+          </div>
+          <button
+            type="button"
+            class="btn btn-warning"
+            id="submit"
+            data-bs-toggle="modal"
+            data-bs-target="#modal"
+          >
+            Submit
+          </button>
+        </form>
 
-          <img
-            class="col"
-            src="./images/christmas-elf-carrying-stack-of-gifts.png"
-            alt="A cartoon Christmas elf smiles while carrying a tall stack of gifts."
-          />
-        </section>
-      </div>
-      <!-- .container -->
+        <img
+          class="col"
+          src="./images/christmas-elf-carrying-stack-of-gifts.png"
+          alt="A cartoon Christmas elf smiles while carrying a tall stack of gifts."
+        />
+      </section>
 
       <!-- Modal -->
       <div
@@ -147,7 +144,7 @@
             <div class="modal-footer justify-content-center">
               <button
                 type="button"
-                class="btn btn-info"
+                class="btn btn-warning"
                 data-bs-dismiss="modal"
                 hidden
               >
@@ -180,7 +177,7 @@
           surface close to your Christmas tree.
         </p>
         <p>Thanks for believing in us for all your Christmas magic!</p>
-        <button type="button" class="btn btn-warning new-request">
+        <button type="button" class="btn btn btn-info new-request">
           Submit New Request
         </button>
       </section>
@@ -207,17 +204,11 @@
           the year off in the right direction, we ask that you continue to remit
           milk and cookie compensation on the evening on December 24th.
         </p>
-        <button type="button" class="btn btn-danger next-request">
+        <button type="button" class="btn btn btn-info next-request">
           Submit Next Request
         </button>
       </section>
     </main>
-    <footer class="p-4">
-      <small class="p-4">
-        A fun little project by:
-        <a href="https://www.sarahlochhead.ca/">Sarah Lochhead</a></small
-      >
-    </footer>
     <!-- .container -->
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

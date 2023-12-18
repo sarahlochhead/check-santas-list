@@ -12,12 +12,8 @@ h1, h2, h3 {
     font-family: 'Rochester', cursive, sans-serif;
 }
 
-a {
-    color: black;
-}
-
-a:hover {
-    color: red;
+ {
+    
 }
 
 /* header */
@@ -27,21 +23,6 @@ h1 {
 }
 
 /* first section */
-
-main > div {
-    background: hsla(0, 0%, 100%, 1);
-    background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(205, 94%, 94%, 1) 40%, hsla(205, 94%, 94%, 1) 65%, hsla(0, 0%, 100%, 1) 100%);
-
-    background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(205, 94%, 94%, 1) 40%, hsla(205, 94%, 94%, 1) 65%, hsla(0, 0%, 100%, 1) 100%);
-
-    background: -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(205, 94%, 94%, 1) 40%, hsla(205, 94%, 94%, 1) 65%, hsla(0, 0%, 100%, 1) 100%);
-
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#E1F2FE", GradientType=1 );
-    /* created using coolors.co gradient generator */
-}
-
-
-
 .main img {
    transform:scaleX(-1);
 }
@@ -103,11 +84,4 @@ main > div {
 #nice h2, #naughty h2{
     font-size: 4rem;
 }
-
-/* footer */
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-};    
 
